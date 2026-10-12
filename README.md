@@ -1,8 +1,8 @@
 # ca-prison-commute-analysis
-# Spatial Analysis of California State Prison Commute Patterns
+# Evaluating Local Employment and Worker Commute Patterns Across California State Prisons
 
 ## Overview
-This repository contains the spatial analysis codebase examining worker commute patterns across 30 California state prison facilities. Using Census LODES (8.0) Origin-Destination data, TIGER/Line block geometries, and HIFLD facility boundaries, this project calculates weighted average commute distances to test policy claims regarding local hiring and economic impacts on host communities.
+This exploratory data analysis investigates the spatial extent of California prison employees' daily commutes in 2023 to evaluate whether state prisons draw their workforce from immediate local communities. This repository contains the spatial analysis codebase examining worker commute patterns across 30 California state prison facilities. To answer the research question of : Using Census LODES (8.0) Origin-Destination data, TIGER/Line block geometries, and HIFLD facility boundaries, this project calculates weighted average commute distances to test policy claims regarding local hiring and economic impacts on host communities.
 
 ## Repository Structure
 * `data/raw/`: Contains source files (`prison-boundaries-1-geojson.zip`, `tlgdb_2020_a_06_ca.gdb`, and `LODES8/ca/od`).
